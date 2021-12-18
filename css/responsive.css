@@ -1,0 +1,213 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (min-width: 320px) and (max-width: 575.98px) {
+
+    /*header res start*/
+    .banner-overlay {
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+
+    .nav-link{
+        display: none;
+    }
+    /*header res end*/
+
+    /*    banner part responsive code start */
+    .b-img img {
+        display: none;
+    }
+
+    .res-p-b {
+        display: none;
+    }
+
+    .banner-overlay h1 {
+        text-align: center;
+    }
+
+    .banner-overlay h6 {
+        text-align: center;
+    }
+
+    banner ul li {
+        padding-right: 19px;
+        padding-left: 19px;
+    }
+
+    banner ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /*    banner part responsive code end*/
+
+
+    /*    features part responsive start */
+    .fe-header h6 {
+        text-align: justify;
+    }
+
+    .fe-mb {
+        margin-bottom: 0px;
+    }
+
+    /*    features part responsive end*/
+
+    /*    footer part responsive code start */
+    .btn {
+        padding: 5px 5px;
+    }
+
+    .f-form {
+        width: 70%;
+        height: 36px;
+    }
+
+    .f-header h6 {
+        text-align: justify;
+    }
+
+    .f-icon {
+        padding-bottom: 50px;
+    }
+
+    .f-text span p {
+        padding-bottom: 50px;
+    }
+
+    .f-contact p {
+        text-align: center;
+    }
+
+    .f-link-res-n {
+        display: none;
+    }
+
+    
+
+    /*    footer part responsive code end*/
+
+}
+
+
+
+
+
+
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /*header res start*/
+    .banner-overlay {
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+    
+    .nav-link{
+        display: none;
+    }
+    /*header res end*/
+
+    /*    banner part responsive code start */
+    .b-img img {
+        width: 160px;
+    }
+
+    .res-p-b {
+        display: none;
+    }
+
+    .banner-overlay h1 {
+        
+    }
+
+    .banner-overlay h6 {
+        
+    }
+
+    banner ul li {
+        padding-right: 30px;
+    }
+
+    banner ul {
+        
+    }
+
+    /*    banner part responsive code end*/
+
+
+    /*    features part responsive start */
+    .fe-header h6 {
+        text-align: justify;
+    }
+
+    features img{
+        width: 35px;
+    }
+
+    /*    features part responsive end*/
+
+    /*    footer part responsive code start */
+    .btn {
+        padding: 5px 5px;
+    }
+
+    .f-form {
+        width: 70%;
+        height: 36px;
+    }
+
+    .f-header h6 {
+        text-align: justify;
+    }
+
+    .f-icon {
+        padding-bottom: 50px;
+    }
+
+    .f-text span p {
+        padding-bottom: 50px;
+    }
+
+    .f-contact p {
+        font-size: 14px;
+    }
+
+    .f-link-res-n a p{
+        font-size: 14px;
+    }
+
+   
+    /*    footer part responsive code end*/
+
+}
+
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .b-img img{
+        width: 235px;
+    }
+    
+    .banner-overlay {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+    
+    .nav-link{
+        display: none;
+    }
+    
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    ...
+}
+
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    ...
+}

@@ -1,0 +1,239 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
+/*header part start*/
+
+nav {
+    height: 100px;
+    background-color: #fcdb00;
+}
+
+nav ul li {
+    padding-left: 70px;
+}
+
+nav a {
+    font-size: 22px;
+    color: #010101;
+    font-weight: 700;
+    transition: all linear .3s;
+}
+
+nav a:hover {
+    color: #fff;
+    transition: all linear .3s;
+}
+
+/*header part end*/
+
+/*banner part start*/
+
+.banner-bg {
+    background-color: #fcdb00;
+}
+
+.banner-overlay {
+    padding-top: 75px;
+    padding-bottom: 105px;
+}
+
+.banner-overlay h1 {
+    font-size: 32px;
+    font-weight: 700;
+    padding-bottom: 22px;
+    color: #010101;
+}
+
+.banner-overlay h6 {
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 22px;
+    color: #313841;
+}
+
+.banner-overlay p {
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 22px;
+    color: #555555;
+}
+
+banner ul li {
+    float: left;
+    padding-right: 38px;
+}
+
+.dot ol li {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+}
+
+.b-img img {
+    margin-left: 35px;
+}
+
+/*banner part end*/
+
+/*Features part start*/
+
+.fe-header h1 {
+    font-size: 32px;
+    font-weight: 700;
+    padding-bottom: 22px;
+    color: #010101;
+    text-align: center;
+    margin-top: 120px;
+}
+
+.fe-header h6 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #313841;
+    text-align: center;
+}
+
+.fe-header span h6 {
+    padding-bottom: 95px;
+}
+
+.fe-text h6 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #010101;
+}
+
+.fe-text p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #898989;
+    margin-bottom: 90px;
+}
+
+.fe-mb {
+    margin-bottom: 150px;
+}
+
+/*Features part end*/
+
+/*footer part start*/
+
+footer {
+    background-color: #010101;
+}
+
+.f-header h1 {
+    font-size: 32px;
+    font-weight: 700;
+    padding-bottom: 22px;
+    color: #fcdb00;
+    text-align: center;
+    padding-top: 95px;
+}
+
+.f-header h6 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #898989;
+    text-align: center;
+}
+
+.f-header span h6 {
+    padding-bottom: 45px;
+}
+
+footer form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    padding-bottom: 75px;
+}
+
+.f-form {
+    width: 55%;
+    height: 50px;
+}
+
+.btn {
+    background-color: #fcdb00;
+    height: 50%;
+    font-weight: 700;
+    padding: 12px 35px;
+    font-size: 16px;
+    color: #010101;
+    transition: all linear .3s;
+}
+
+.btn:hover {
+    background-color: #fff;
+    transition: all linear .3s;
+}
+
+.f-icon{
+    padding-bottom: 130px;
+}
+
+.f-icon ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.f-icon ul li{
+    float: left;
+    padding: 0 15px;
+}
+
+.f-icon ul li a{
+    display: block;
+    color: #fcdb00;
+    font-size: 36px;
+    transition: all linear .3s;
+}
+
+.f-icon ul li a:hover{
+    color: #fff;
+    transition: all linear .3s;
+}
+
+.f-text a{
+    text-decoration: none;
+}
+
+.f-text p{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;   
+}
+
+.f-text span p{
+    padding-bottom: 140px;
+}
+
+f-text a p{
+    transition: all linear .3s;
+}
+
+.f-text a p:hover{
+    color: #fcdb00;
+    transition: all linear .3s;
+}
+/*footer part end*/
